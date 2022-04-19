@@ -1,0 +1,51 @@
+#name{
+    color: yellow;
+    background-color: black;
+}
+#email{
+    color:red;
+    background-color: black;
+}
+#password{
+    color: red;
+    background-color: black;
+}
+#carbrands{
+    background-color: black;
+    color: red;
+}
+#cars{
+    background-color: red;
+}
+#br{
+    background-color: black;
+}
+#br2{
+    color: black;
+}
+#num1{
+    background-color: black;
+}
+
+
+#age{
+    background-color:black;
+      color: red;
+}
+#dob{
+    background-color: black;
+     color: yellow;
+}
+
+#Gender{
+    background-color: black;
+    color: yellow;
+}
+
+#placeholder{
+    background-color: black;
+        color: yellow;
+
+
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign-up for dream car here!</title>
+    </head>
+    <body>
+    
+    <form action= method="post" id="form">
+ <div id="name">
+    <label for="Name">Name:</label>
+    <input type="text" name="Name" placeholder="Ex.:-Ritwik" id="placeholder"  required>
+ </div>
+<div id="email" >
+    <label for="Email">Email:</label>
+    <input type="e-mail"  name="E-mail" id="e-mail" placeholder="Ex.:-Yourname@gmail.com" required>
+
+</div>
+    <div id="password">
+        <label for="password">Password:-</label>
+         <input type="password" id="password" placeholder="Use unique alphabets and numbers only" name="Password" required>
+
+    </div>
+<div id="Gender" name="gender">
+   <label for="Gender">Gender:</label>
+
+   <label for="gender-male">Male:-</label>
+   <input type="radio" name="gender-male">
+
+   <label for="gender-female">Female:-</label>
+   <input type="radio" name="gender-female">
+
+   <label for="gender-others">Others:-</label> 
+   <input type="RADIO" name="gender-others">
+   
+</div>
+<div id="age">
+    <label for="age">What's Your Age?:-</label>
+    <input type="number" id="age" name="age">
+</div>
+
+<div id="dob">
+    <label for="dob">D.O.B:</label>
+       <input type="date" id="dob" name="dob">
+</div>
+
+<div id="carbrands" name="cars">
+<label for="carbrands">Choose your car:-</label>
+<select name="cars" id="cars">
+    <option value="DEFAULT"</option>
+     <option value="1">BMW</option>
+      <option value="2">Maserati</option>
+      <option value="3">AUDI</option>
+</select>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
